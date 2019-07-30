@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22adff</color>
+    <color name="colorPrimaryDark">#5588ff</color>
+    <color name="colorAccent">#22adff</color>
+    <!--默认文字颜色-->
+    <color name="textColor">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+</resources>
