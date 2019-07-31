@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--窗口显示和退出动画从底部-->
+    <style name="anim_window_popu">
+        <item name="android:windowEnterAnimation">@anim/popu_in</item>
+        <item name="android:windowExitAnimation">@anim/popu_out</item>
+    </style>
+
+    <!--窗口显示和退出动画从左边-->
+    <style name="anim_window_popu_left">
+        <item name="android:windowEnterAnimation">@anim/popu_in_left</item>
+        <item name="android:windowExitAnimation">@anim/popu_out_left</item>
+    </style>
+    <!--窗口显示和退出动画从右边-->
+    <style name="anim_window_popu_right">
+        <item name="android:windowEnterAnimation">@anim/popu_in_right</item>
+        <item name="android:windowExitAnimation">@anim/popu_out_right</item>
+    </style>
+    <!--窗口显示和退出动画从顶部-->
+    <style name="anim_window_popu_top">
+        <item name="android:windowEnterAnimation">@anim/popu_in_top</item>
+        <item name="android:windowExitAnimation">@anim/popu_out_top</item>
+    </style>
+
+    <!--窗口显示和退出动画,在组件的下面弹出弹入-->
+    <style name="anim_window_popu_anchor_down">
+        <item name="android:windowEnterAnimation">@anim/popu_in_anchor_down</item>
+        <item name="android:windowExitAnimation">@anim/popu_out_anchor_down</item>
+    </style>
+
+    <!--窗口显示和退出动画,在组件的左边弹出弹入-->
+    <style name="anim_window_popu_anchor_left">
+        <item name="android:windowEnterAnimation">@anim/popu_in_anchor_left</item>
+        <item name="android:windowExitAnimation">@anim/popu_out_anchor_left</item>
+    </style>
+</resources>

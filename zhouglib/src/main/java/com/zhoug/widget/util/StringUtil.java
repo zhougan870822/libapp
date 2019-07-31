@@ -1,4 +1,4 @@
-package com.zhoug.zhouglib.util;
+package com.zhoug.widget.util;
 
 import java.util.regex.Pattern;
 

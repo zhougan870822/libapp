@@ -1,4 +1,4 @@
-package com.zhoug.zhouglib;
+package com.zhoug.widget;
 
 import org.junit.Test;
 

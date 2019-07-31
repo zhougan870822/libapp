@@ -12,6 +12,9 @@
         android:layout_height="?android:attr/actionBarSize"
         android:gravity="center"
         android:text="自定义组件"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titleSize"
         />
 
     <android.support.v7.widget.RecyclerView

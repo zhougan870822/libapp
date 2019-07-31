@@ -1,9 +1,7 @@
-package com.zhoug.zhouglib.base;
+package com.zhoug.widget.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.zhoug.zhouglib.R;
 
 /**
  * 基类Activity
