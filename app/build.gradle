@@ -9,6 +9,9 @@ android {
         versionCode 1
         versionName '1.0.1'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders=[
+                "FileProvider_authorities":"com.zhoug.libapp.fileprovider"
+        ]
     }
     buildTypes {
         release {

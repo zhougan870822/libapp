@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.zhoug.widget.activities.BaseActivity;
 import com.zhoug.widget.dialog.EditDialogFragment;
 import com.zhoug.widget.divider.DividerItemWithoutLastItem;
+import com.zhoug.widget.util.AppUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,7 @@ public class MainActivity extends BaseActivity {
     private void initData() {
         mData.clear();
         mData.add("EditDialogFragment");
+        mData.add("测试MFileProvider");
 
     }
 
@@ -51,6 +53,8 @@ public class MainActivity extends BaseActivity {
                 editDialogFragment.show(getSupportFragmentManager(), EditDialogFragment.class.getName());
                 break;
             case 1:
+                AppUtil.getFileProvideIntent(this,"" ,"image/*" );
+
 
                 break;
             case 2:
