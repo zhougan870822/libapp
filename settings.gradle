@@ -1,1 +1,1 @@
-include ':app', ':zhouglib'
+include ':app', ':zhouglib', ':permission'

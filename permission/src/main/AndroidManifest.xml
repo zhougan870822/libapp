@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhoug.permission" >
+
+    <application
+        >
+        <activity android:name=".PermissionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/permission_PermissionActivity"
+
+            />
+    </application>
+</manifest>
